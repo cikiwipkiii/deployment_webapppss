@@ -15,7 +15,7 @@ with st.sidebar :
 if Pilihan == "Home" :
  
     st.header ('HELLO EVERYBODY, WELCOME TO :blue[OUR WEB]! :sunglasses:')
-    file_ = open("C:\webapps_using_deploy3\gambar_1.gif", "rb")
+    file_ = open("https://github.com/cikiwipkiii/deployment_webapppss/blob/main/gambar_1.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
