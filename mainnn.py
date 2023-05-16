@@ -13,7 +13,7 @@ with st.sidebar :
 
  #Pengertian Mol
 if Pilihan == "Home" :
-    st.markdown("![Alt Text](https://github.com/cikiwipkiii/deployment_webapppss/blob/main/gambar_1.gif)")
+    st.image(Image.open("gambar_1.gif"))
     
     st.write('\n')
     st.write('\n')
